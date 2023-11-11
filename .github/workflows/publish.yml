@@ -30,11 +30,17 @@ jobs:
       - name: Install dependencies
         run: yarn install --frozen-lockfile
 
-      - name: Build and Deploy Storybook
-        run: yarn deploy-storybook --ci --source-branch main
-        env:
-          GH_TOKEN: ${{ github.actor }}:${{ secrets.GITHUB_TOKEN }}
-          # GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - id: build-publish
+        name: Publish storybook
+        uses: bitovi/github-actions-storybook-to-github-pages@v1.0.0
+        # with:
+        # path: build # change to your build folder
+
+      # - name: Build and Deploy Storybook
+      #   run: yarn deploy-storybook --ci --source-branch main
+      #   env:
+      #     GH_TOKEN: ${{ github.actor }}:${{ secrets.GITHUB_TOKEN }}
+      #     # GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Build and publish to npm
         if: github.ref == 'refs/tags/v*' # Only run on version tags
