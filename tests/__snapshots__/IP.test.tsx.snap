@@ -1,0 +1,19 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`renders 1.1.1. correctly 1`] = `
+<div
+  className="box "
+>
+  ip address: 
+  <pre>
+    1.1.1.1
+  </pre>
+  <pre
+    dangerouslySetInnerHTML={
+      {
+        "__html": "<span class=json-number>undefined</span>",
+      }
+    }
+  />
+</div>
+`;
