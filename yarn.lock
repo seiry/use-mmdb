@@ -14722,6 +14722,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"mmdb.js@npm:^1.0.0":
+  version: 1.0.0
+  resolution: "mmdb.js@npm:1.0.0"
+  dependencies:
+    buffer: "npm:^6.0.3"
+  checksum: 7ec574022713c746051f8378f4cae9c99b4a305c3055448e4b2cec3f76345e1b15852cde3dbce7f69791b5cb0ae0f15e399019f5f95e3ccf20a4481b7efcfcef
+  languageName: node
+  linkType: hard
+
 "mri@npm:^1.2.0":
   version: 1.2.0
   resolution: "mri@npm:1.2.0"
@@ -18952,6 +18961,7 @@ __metadata:
     husky: "npm:8.0.3"
     jsdom: "npm:^22.1.0"
     lint-staged: "npm:15.0.2"
+    mmdb.js: "npm:^1.0.0"
     prettier: "npm:3.0.3"
     prop-types: "npm:15.8.1"
     react: "npm:18.2.0"
