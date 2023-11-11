@@ -46,6 +46,7 @@ jobs:
         # ref is *.*.*, no v
         run: |
           yarn build
+          npm login --registry=https://registry.npmjs.org/
           npm publish --access public
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_AUTH_TOKEN }}
