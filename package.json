@@ -150,6 +150,7 @@
   },
   "packageManager": "yarn@4.0.1",
   "dependencies": {
+    "buffer": "^6.0.3",
     "mmdb.js": "^1.0.0"
   }
 }
