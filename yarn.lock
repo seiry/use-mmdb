@@ -14722,12 +14722,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"mmdb.js@npm:^1.0.0":
-  version: 1.0.0
-  resolution: "mmdb.js@npm:1.0.0"
+"mmdb.js@npm:^1.0.1":
+  version: 1.0.1
+  resolution: "mmdb.js@npm:1.0.1"
   dependencies:
     buffer: "npm:^6.0.3"
-  checksum: 7ec574022713c746051f8378f4cae9c99b4a305c3055448e4b2cec3f76345e1b15852cde3dbce7f69791b5cb0ae0f15e399019f5f95e3ccf20a4481b7efcfcef
+  checksum: 844edd7f099033ee5c7e5d665e708359549108f6b79d221f46d8d4d5d7474a0bb3c395ca87a62d41dbf8a2801543b08ba55b62259c897dba418cc08932384a5e
   languageName: node
   linkType: hard
 
@@ -15943,6 +15943,13 @@ __metadata:
   version: 1.0.3
   resolution: "pretty-hrtime@npm:1.0.3"
   checksum: 0a462e88a0a3fd3320288fd8307f488974326ae8e13eea8c27f590f8ee767ccb59cf35bcae1cadff241cd8b72f3e373fc76ff1be95243649899bf8c816874af9
+  languageName: node
+  linkType: hard
+
+"pretty-print-json@npm:^2.0.4":
+  version: 2.0.4
+  resolution: "pretty-print-json@npm:2.0.4"
+  checksum: f70ff1b91eacfc0375520e69a773ce1e3fbc23b1e2addaed2cbd329823dbcbc98826d212913e16792c22d74a670108300843d2e0bb5e29f07e8b316ff0e80f73
   languageName: node
   linkType: hard
 
@@ -18962,8 +18969,9 @@ __metadata:
     husky: "npm:8.0.3"
     jsdom: "npm:^22.1.0"
     lint-staged: "npm:15.0.2"
-    mmdb.js: "npm:^1.0.0"
+    mmdb.js: "npm:^1.0.1"
     prettier: "npm:3.0.3"
+    pretty-print-json: "npm:^2.0.4"
     prop-types: "npm:15.8.1"
     react: "npm:18.2.0"
     react-dom: "npm:18.2.0"

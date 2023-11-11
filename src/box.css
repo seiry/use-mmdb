@@ -1,0 +1,8 @@
+.box {
+  background-color: rgb(var(--background-end-rgb));
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px;
+  box-shadow: 0 0 10px rgba(var(--background-start-rgb), 0.5);
+  width: 30rem;
+}

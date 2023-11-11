@@ -125,6 +125,7 @@
     "jsdom": "^22.1.0",
     "lint-staged": "15.0.2",
     "prettier": "3.0.3",
+    "pretty-print-json": "^2.0.4",
     "prop-types": "15.8.1",
     "react": "18.2.0",
     "react-dom": "18.2.0",
@@ -151,6 +152,6 @@
   "packageManager": "yarn@4.0.1",
   "dependencies": {
     "buffer": "^6.0.3",
-    "mmdb.js": "^1.0.0"
+    "mmdb.js": "^1.0.1"
   }
 }
