@@ -38,11 +38,12 @@ jobs:
           build_command: yarn build-storybook
           path: storybook-static
 
-      - name: Echo ref
-        run: echo ${{ github.ref }}
+      # - name: Echo ref
+      # run: echo ${{ github.ref }}
 
       - name: Build and publish to npm
-        if: github.ref == 'refs/tags/v*' # Only run on version tags
+        # if: github.ref == 'refs/tags/v*' # Only run on version tags
+        # ref is *.*.*, no v
         run: |
           yarn build
           npm publish --access public
