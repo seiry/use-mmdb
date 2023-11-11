@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 import * as mmdb from 'mmdb.js';
 import { fetchFileAsBuffer } from './utils';
 
-const _mmdbUrl =
+export const _mmdbUrl =
   'https://raw.githubusercontent.com/Max-Sum/17mon-mmdb/release/Country.mmdb';
 
 export const useIp = (mmdbUrl?: string) => {
