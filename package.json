@@ -1,13 +1,17 @@
 {
-  "name": "use-ip",
-  "description": "",
+  "name": "use-mmdb",
+  "description": "A react hook to get ip geo addr use MaxMind's MMDB files",
   "version": "1.0.0-0",
   "author": "",
-  "license": "",
-  "keywords": [],
+  "license": "MIT",
+  "keywords": [
+    "mmdb",
+    "geo",
+    "ip"
+  ],
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/seiry/use-mmdb"
   },
   "scripts": {
     "dev": "concurrently \"yarn build --watch\" \"yarn storybook\" \"yarn test\" ",
